@@ -1,3 +1,4 @@
+import ParticlesContainer from "@/components/ParticlesContainer";
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
@@ -48,6 +49,7 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+      <ParticlesContainer />
     </section>
   );
 };
