@@ -35,10 +35,10 @@ const info = [
 ];
 
 import { motion } from "framer-motion";
+import Marquee from "react-fast-marquee";
 
 const Contact = () => {
   return (
-    
     <motion.section
       initial={{ opacity: 0 }}
       animate={{
@@ -47,8 +47,10 @@ const Contact = () => {
       }}
       className="py-6"
     >
+      <Marquee className="text-2xl text-center pb-10">
+        <div>THE BELOW FORM IS UNDER CONSTRUCTION</div>
+      </Marquee>
       <div className="container mx-auto">
-      <h1 className="text-4xl text-center pb-10">IT IS STILL UNDER CONSTRUCTION</h1>
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none">
